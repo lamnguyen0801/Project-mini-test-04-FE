@@ -10,11 +10,16 @@
     --font: "Raleway", sans-serif;
 }
 
+html {
+    overflow-x: hidden; /* ẩn thanh ngang scroll */
+}
+
 body {
     color: var(--color-text-2);
     font-family: var(--font);   
     line-height: 25px;
     margin: 0; /*do boostrap ko có */
+    overflow-x: hidden; /* ẩn thanh ngang scroll */
 }
 
 a {
